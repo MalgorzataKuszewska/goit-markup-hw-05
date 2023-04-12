@@ -1,3 +1,3 @@
 # goit-markup-hw-05
 
-https://malgorzatakuszewska.github.io/goit-markup-hw-5/
+https://malgorzatakuszewska.github.io/goit-markup-hw-05/
