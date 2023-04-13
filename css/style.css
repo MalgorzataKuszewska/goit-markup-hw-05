@@ -361,9 +361,9 @@ body .button-main-page {
   height: 581px;
   transition-property: visibility, opacity, transform;
   transition-duration: 2s;
-  transform: translate(-50%, -50%);
-  opacity: 1;
   visibility: visible;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+  opacity: 1;
   background-color: var(--color-text-secondary);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -374,6 +374,7 @@ body .button-main-page {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: translateX(-50%) translateY(-50%) scale(0);
 }
 .close-button {
   position: absolute;
@@ -426,6 +427,7 @@ body .button-main-page {
   list-style-type: none;
   display: flex;
   gap: 30px;
+  height: 294px;
 }
 .images-overlay {
   position: relative;
@@ -434,12 +436,9 @@ body .button-main-page {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   padding-top: 27px;
   padding-bottom: 27px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #2f303acc;
 }
 .text-overlay {
